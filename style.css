@@ -1,45 +1,60 @@
-body  {
-    background-color: rosybrown; 
+body {
+    background-color: rosybrown;
 }
-nav{
+
+nav {
     text-transform: uppercase;
-    font-family: sans-serif; 
+    font-family: sans-serif;
 }
-.nav-link{ 
+
+.nav-link {
     font-weight: bold;
 }
-/* when you hover the tabs change to italics and background color turns blue*/
-.nav-link:hover{
-    font-style: italic; 
+
+.nav-link:hover {
+    font-style: italic;
     background-color: blue;
 }
 
 header {
     height: 600px;
-    background-image:url("city.jpg"); 
-    text-align: center; 
-}    
-header p { 
-    font-style: italic;
-    color: white; 
+    background-image: url("city.jpg");
+    text-align: center;
 }
 
-header h1{ 
-    color: white; }
-    
-    .services i {
-        font-size: 40px; 
-        padding: 25px 28px;
-        
-        color: #fff;
-        background-color: blue;
-        
-        width: 80px;
-        height: 80px;
-        border-radius: 50%;
-    }
-    
-    .services span {
-        width: 200px;
-        display: inline-block;
-    }
+header p {
+    font-style: italic;
+    color: white;
+}
+
+header h1 {
+    color: white;
+}
+
+.services i {
+    font-size: 40px;
+    padding: 25px 28px;
+
+    color: #fff;
+    background-color: blue;
+
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.services span {
+    width: 200px;
+    display: inline-block;
+}
+
+.team img {
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+}
+
+.contact textarea {
+    height: 200px;
+    width: 100%;
+}
